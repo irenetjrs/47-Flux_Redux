@@ -2,7 +2,7 @@ import React from "react";
 import LogIn from "./components/LogIn";
 import Products from "./components/Products";
 import SaveList from "./components/SaveList";
-
+import LogOut from "./components/LogOut";
   function App () {
 
 return (
@@ -13,6 +13,7 @@ return (
       <SaveList />
     </div>
     <LogIn />
+    <LogOut />
   </div> 
   );
 }
